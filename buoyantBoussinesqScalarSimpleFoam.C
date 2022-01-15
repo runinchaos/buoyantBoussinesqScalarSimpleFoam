@@ -22,26 +22,10 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Application
-    buoyantBoussinesqSimpleFoam
+    buoyantBoussinesqScalarSimpleFoam
 
 Description
-    Steady-state solver for buoyant, turbulent flow of incompressible fluids.
 
-    Uses the Boussinesq approximation:
-    \f[
-        rho_{k} = 1 - beta(T - T_{ref})
-    \f]
-
-    where:
-        \f$ rho_{k} \f$ = the effective (driving) density
-        beta = thermal expansion coefficient [1/K]
-        T = temperature [K]
-        \f$ T_{ref} \f$ = reference temperature [K]
-
-    Valid when:
-    \f[
-        \frac{beta(T - T_{ref})}{rho_{ref}} << 1
-    \f]
 
 \*---------------------------------------------------------------------------*/
 
